@@ -1,0 +1,441 @@
+/* maximum width 480px  */
+@media screen and (max-width: 480px) {
+  .header {
+    background: #04132b;
+    color: #f0f0f0;
+    padding: 50px;
+    height: 658px;
+  }
+
+  .header-br {
+    display: none;
+  }
+
+  .header-space {
+    display: none;
+  }
+
+  .header-spce {
+    display: none;
+  }
+
+  .top-p {
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+    color: #fff;
+  }
+
+  .icon {
+    font-size: 35px;
+    color: #ffc80e;
+    margin-right: 23px;
+  }
+
+  .icons {
+    margin-left: -30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .icons i {
+    padding-left: 20px;
+  }
+
+  .icons i:hover {
+    color: #ffc80e;
+  }
+
+  .portolio-banner {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #202e50;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .left-portfolio {
+    width: 100%;
+    padding: 60px;
+  }
+
+  .portofolio-btn {
+    width: 65%;
+    margin: 27px 0px 0px -12px;
+  }
+
+  .outer-div {
+    background-color: #fff;
+    font-style: italic;
+    word-spacing: 1;
+    width: 55%;
+    height: 40vh;
+    position: absolute;
+    bottom: -150px;
+    left: 30px;
+    padding: 60px 40px 40px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .outer-div h4 {
+    display: flex;
+  }
+
+  .outer-div-hr {
+    height: 0;
+    width: 4%;
+    border-radius: 0%;
+    margin-top: 10px;
+  }
+
+  #experience {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 250px 0px 200px 0px;
+  }
+
+  .experience-hr {
+    width: 70%;
+  }
+
+  .experience-left-h2 {
+    width: 200%;
+  }
+
+  .sub-ex-left {
+    display: flex;
+    flex-direction: column;
+    color: #bda7a7;
+    margin-top: 30px;
+    width: 200%;
+  }
+
+  .experiene-btn {
+    width: 105%;
+  }
+
+  .ex-right {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+
+  .ex-img1 {
+    position: absolute;
+    top: 10px;
+    left: 135px;
+    z-index: 1;
+    padding: 94px 0px 0px 0px;
+    width: 200px;
+  }
+
+  .ex-img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+    width: 200px;
+  }
+
+  #Trusted-Consultants {
+    width: 100%;
+    height: 380vh;
+    background-color: #f6f6f6;
+    margin: 100px 0px 100px 0px;
+    padding: 50px;
+  }
+
+  .Consultants-hr {
+    width: 50%;
+    margin-left: 80px;
+  }
+
+  #Trusted-Consultants h2 {
+    padding: 10px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .card {
+    margin-top: 10px;
+    background-color: #fff;
+  }
+
+  .card:hover {
+    background-color: #ffc80e;
+  }
+
+  .services-btn {
+    margin: 30px 0px 0px 50px;
+  }
+
+  .chooose-main {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .choose-left {
+    width: 65%;
+    padding: 0px;
+    margin-left: 80px;
+  }
+
+  .choose-right {
+    width: 103%;
+    padding: 60px;
+  }
+
+  .choose-h2-heading {
+    font-size: 30px;
+  }
+
+  #Business-Marketing {
+    width: 100%;
+    height: 145vh;
+    background-color: #071231;
+  }
+  .marketing-h2-end{
+    padding-top: 50px;
+  }
+  #objectives-goals {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  .left-goal {
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+  }
+
+  .right-goal {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 100px 0px 0px;
+  }
+  .slider-imgs{
+    height: 370px;
+    width: 100%;
+  }
+
+  .goal-h2-heading {
+    font-size: 31px;
+  }
+
+  .goal {
+    margin: 10px;
+    box-shadow: 25px 15px 15px 5px rgba(167, 166, 153, 0.4);
+    padding: 15px 40px;
+    width: 220%;
+    margin: 5px 73px;
+  }
+
+  .goal i {
+    padding: 50px;
+    font-size: 20px;
+  }
+
+  .goal:hover {
+    background-color: #ffc80e;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .goal+.arrow {
+    display: block;
+  }
+
+  #Brands {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+  }
+
+  .brand-hr {
+    width: 22%;
+    margin: 20px 0px;
+  }
+
+  .left-brand {
+    width: 100%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+
+  .right-brand-p {
+    margin: 0px 0px;
+  }
+
+  .right-brand {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .right-brand h2 {
+    margin-top: 500px;
+  }
+
+  .brand-img {
+    width: 80%;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    z-index: 1;
+    margin: 0px 0px 0px -12px;
+  }
+
+  .brand-img1 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    z-index: 2;
+    width: 80%;
+    margin-top: 50px;
+  }
+  .sub-right-brand{
+    display: none;
+}
+
+  #logos {
+    width: 100%;
+    background-color: #f6f6f6;
+    margin-top: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+  }
+
+  .logoo {
+    padding: 20px 0px;
+    margin-bottom: 10px;
+  }
+
+  .logo-img1 {
+    width: 30%;
+  }
+
+  .logo-img2 {
+    width: 30%;
+  }
+
+  .logo-img3 {
+    width: 30%;
+  }
+
+  .logo-img4 {
+    width: 30%;
+  }
+
+  .marketing-h2 {
+    font-size: 23px;
+  }
+
+  #footer {
+    background-image: url(imaegs/footer_background.jpg);
+    background-color: #04132b;
+    opacity: 1.0;
+    padding: 100px 20px 10px 20px;
+  }
+
+  .footer-h4-hr {
+    width: 40%;
+    margin: 20px 0px;
+  }
+
+  .footer-p {
+    color: #fff;
+    padding: 23px 0px 23px 0px;
+  }
+
+  .main-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .main-footer ul li {
+    list-style-type: none;
+    margin: 10px;
+    color: #88898a;
+    line-height: 1.5;
+  }
+
+  .first-half {
+    width: 60%;
+  }
+
+  .first-half p {
+    padding: 23px 0px;
+    width: 179%;
+  }
+
+  .second-half {
+    width: 60%;
+    color: #fff;
+  }
+
+  .third-half {
+    width: 60%;
+    color: #fff;
+  }
+
+  .footer-p {
+    text-align: center;
+  }
+
+  .footer-i {
+    background-color: #fff;
+    padding: 15px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: black;
+    margin-left: 5px;
+  }
+
+  .footer-i:hover {
+    background-color: #ffc80e;
+    color: black;
+  }
+
+  .footer-hr {
+    border: 1px solid #88898a;
+    margin: 10px 0px;
+  }
+}
+
+
+/* Screen width 768 */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
